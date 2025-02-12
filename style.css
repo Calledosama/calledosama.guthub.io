@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #E5E5E5;
+  background: ##00DBFA;
   background-image: url("bg.jpg");
 }
 
@@ -63,15 +63,15 @@ body {
   font-family: 'Lobster', cursive;
   font-style: italic;
   font-size: 70px;
-  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
-  color: #FFF;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 ##00DBFA, 2px 2px 0 ##00DBFA, 3px 3px 0 ##00DBFA;
+  color: #ffff;
 }
 
 #card-inside {
   font-size: 1.3em;
   line-height: 1.4;
 font-family: 'Lobster';
-  color: #ffffff;
+  color: #000000;
   font-style: italic;
 }
 
@@ -115,7 +115,7 @@ p.signed {
   left: 0;
   right: 0;
   display: block;
-  background-color: #444;
+  background-color: ##00DBFA;
   -webkit-transform: translateZ(-1px);
           transform: translateZ(-1px);
 }
@@ -131,8 +131,8 @@ p.signed {
   position: absolute;
   bottom: 1em;
   right: -12px;
-  background: #F44;
-  color: #FFF;
+  background: ##00DBFA;
+  color: #000000;
   font-family: 'Lobster', cursive;
   font-style: italic;
   font-weight: bold;
@@ -146,7 +146,7 @@ p.signed {
 
 #card-front button:hover,
 #card-front button:focus {
-  background: #F22;
+  background: #00DBFA;
 }
 
 #close {
@@ -179,7 +179,7 @@ p.signed {
 
 #card.open-fully #card-front,
 #card.close-half #card-front {
-  background: #FFEFEF;
+  background: #00DBFA;
 }
 
 #card.open-fully #card-front {
@@ -197,7 +197,7 @@ footer {
 font-family: 'Lobster', cursive;
   font-size: 14px;
   line-height: 1.6;
-  color: #888;
+  color: #00DBFA;
   text-align: center;
 }
 
@@ -359,7 +359,7 @@ font-family: 'Lobster', cursive;
           backface-visibility: hidden;
   -webkit-transform: translateZ(-1px) rotateY(180deg);
           transform: translateZ(-1px) rotateY(180deg);
-  background-color: #ffefef;
+  background-color: #00DBFA;
 }
 
 .shadow {
@@ -434,4 +434,3 @@ font-family: 'Lobster', cursive;
   }
 }
 
-}
