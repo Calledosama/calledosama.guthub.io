@@ -11,7 +11,7 @@ body {
 }
 
 #card-front {
-  color: #FFDFDF;
+  color: #00a1d8;
   z-index: 10;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 #card-inside .wrap {
-  background: #FFEFEF;
+  background: #00DBFA;
   -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -71,7 +71,7 @@ body {
   font-size: 1.3em;
   line-height: 1.4;
 font-family: 'Lobster';
-  color: #331717;
+  color: #ffffff;
   font-style: italic;
 }
 
@@ -92,9 +92,9 @@ p.signed {
 }
 
 #card-front {
-  background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777));
-  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
+  background-color: #00DBFA;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00DBFA), to(#00DBFA));
+  background-image: linear-gradient(top, # 0%, #FF7777 100%);
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
@@ -432,4 +432,6 @@ font-family: 'Lobster', cursive;
   to {
     opacity: 1;
   }
+}
+
 }
